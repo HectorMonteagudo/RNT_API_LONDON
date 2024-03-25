@@ -14,6 +14,7 @@ namespace RNT_APIREST_LONDON.Controllers
 
         public EtapasController(IEtapaRepository repository)
         {
+            //AGREGANDO REPOSITORIOS
             _repository = repository;
         }
         [HttpGet]
