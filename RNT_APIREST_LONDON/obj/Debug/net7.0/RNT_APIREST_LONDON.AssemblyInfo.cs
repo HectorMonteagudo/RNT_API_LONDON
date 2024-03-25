@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RNT_APIREST_LONDON")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8a767124e164efd12f26886ec0990f894b844f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce226086f5563a4216946c8000bbc4773544904f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RNT_APIREST_LONDON")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RNT_APIREST_LONDON")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
