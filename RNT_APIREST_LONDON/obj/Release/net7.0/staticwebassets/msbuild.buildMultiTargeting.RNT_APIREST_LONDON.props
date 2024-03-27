@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RNT_APIREST_LONDON.props" />
+</Project>

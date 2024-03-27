@@ -42,3 +42,4 @@ C:\Desarrollos RINTI\RNT_API_LONDON\RNT_APIREST_LONDON\bin\Debug\net7.0\Microsof
 C:\Desarrollos RINTI\RNT_API_LONDON\RNT_APIREST_LONDON\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Desarrollos RINTI\RNT_API_LONDON\RNT_APIREST_LONDON\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Desarrollos RINTI\RNT_API_LONDON\RNT_APIREST_LONDON\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Desarrollos RINTI\RNT_API_LONDON\RNT_APIREST_LONDON\obj\Debug\net7.0\RNT_APIREST_LONDON.sourcelink.json

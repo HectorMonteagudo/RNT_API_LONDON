@@ -50,5 +50,8 @@
         public string? SubSegmento { get; set; }
         public string? Variedad { get; set; }
 
+        public string? EAN13 { get; set; }
+        public string? EAN14 { get; set; }
+
     }
 }

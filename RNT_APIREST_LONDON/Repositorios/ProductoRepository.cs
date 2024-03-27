@@ -26,7 +26,7 @@ namespace RNT_APIREST_LONDON.Repositorios
 
             try
             {
-                query = "SELECT \"CodProducto\", \"Producto\", \"CodCondicion\",\"CodEmpaque\",\"CodEspecie\",\"CodEtapa\",\"CodExistencia\",\"CodFamilia\",\"CodGrupoArticulo\",\"CodGrupoMarca\",\"CodLinea\",\"CodMarca\",\"CodPresentacion\",\"CodRaza\",\"CodSegmento\",\"CodSubFamilia\",\"CodSubLinea\",\"CodSubSegmento\",\"CodVariedad\",\"Condicion\",\"Empaque\",\"Equivalencia1\",\"Equivalencia2\",\"Equivalencia3\",\"Especie\",\"Etapa\",\"Existencia\",\"Familia\",\"GrupoArticulo\",\"GrupoMarca\",\"Linea\",TO_NVARCHAR(\"PesoNetoUnitario\") AS \"PesoNetoUnitario\",\"Presentacion\",\"Raza\",\"Segmento\", TO_NVARCHAR(\"Stock\")AS \"Stock\",\"SubFamilia\",\"SubLinea\",\"SubSegmento\",\"Variedad\" FROM _SYS_BIC.\"RNT_DM/RNT_PRODUCTO\"";
+                query = "SELECT \"CodProducto\", \"Producto\", \"CodCondicion\",\"CodEmpaque\",\"CodEspecie\",\"CodEtapa\",\"CodExistencia\",\"CodFamilia\",\"CodGrupoArticulo\",\"CodGrupoMarca\",\"CodLinea\",\"CodMarca\",\"CodPresentacion\",\"CodRaza\",\"CodSegmento\",\"CodSubFamilia\",\"CodSubLinea\",\"CodSubSegmento\",\"CodVariedad\",\"Condicion\",\"Empaque\",\"Equivalencia1\",\"Equivalencia2\",\"Equivalencia3\",\"Especie\",\"Etapa\",\"Existencia\",\"Familia\",\"GrupoArticulo\",\"GrupoMarca\",\"Linea\",TO_NVARCHAR(\"PesoNetoUnitario\") AS \"PesoNetoUnitario\",\"Presentacion\",\"Raza\",\"Segmento\", TO_NVARCHAR(\"Stock\")AS \"Stock\",\"SubFamilia\",\"SubLinea\",\"SubSegmento\",\"Variedad\" ,\"EAN13\",\"EAN14\"  FROM _SYS_BIC.\"RNT_DM/RNT_PRODUCTO\"";
                 using var connection = new HanaConnection(connectionString);
 
                 listaLineas = await connection.QueryAsync<Productos>(query);
